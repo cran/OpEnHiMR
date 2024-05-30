@@ -2,7 +2,7 @@ Package: OpEnHiMR
 Type: Package
 Title: Optimization Based Ensemble Model for Prediction of Histone
         Modifications in Rice
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(person("Dipro", "Sinha", role = c("aut","cre"), email = "diprosinha@gmail.com"),
              person("Sneha", "Murmu", role = c("aut")),
              person("Girish Kumar", "Jha", role = c("aut")),
@@ -22,7 +22,7 @@ Imports: Biostrings, devtools, tidyverse, seqinr, splitstackshape,
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2024-05-25 15:26:46 UTC; dipro
+Packaged: 2024-05-29 18:22:38 UTC; dipro
 Author: Dipro Sinha [aut, cre],
   Sneha Murmu [aut],
   Girish Kumar Jha [aut],
@@ -35,4 +35,4 @@ Author: Dipro Sinha [aut, cre],
   Sunil Archak [aut]
 Maintainer: Dipro Sinha <diprosinha@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-05-26 17:30:11 UTC
+Date/Publication: 2024-05-30 07:00:34 UTC

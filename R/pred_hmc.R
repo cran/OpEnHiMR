@@ -439,7 +439,7 @@ pred_hmc <- function(fasta_file_path){
 
   final_results$Predicted_Class_Label <- ifelse(final_results$Predicted_Class == 1, "H3K27me3",
                                                 ifelse(final_results$Predicted_Class == 2, "H3K9ac",
-                                                       ifelse(final_results$Predicted_Class == 3, "H3K27me3",
+                                                       ifelse(final_results$Predicted_Class == 3, "H3K4me3",
                                                               ifelse(final_results$Predicted_Class == 4, "No Modification", NA))))
   final_pred <- data.frame(Ids = rownames(final_results),
                            Modification = final_results$Predicted_Class_Label,
